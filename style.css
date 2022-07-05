@@ -8,24 +8,47 @@ body {
 .banner {
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 8%;
-    padding-bottom: 8%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 
-    background-image: url(images/donation13.jpg);
+    background-image: url(images/blur.jpg);
 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
 
-h1 {
+#banner-h1 {
     color: aliceblue;
 }
 
-p {
-    color: aliceblue;
+#banner-p {
+    color: rgb(255, 255, 255);
     font-size: 18px;
+    padding-bottom: 5%;
+    text-align: center;
 
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(245, 105, 175), rgb(145, 22, 124));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+#donate-h1 {
+    padding-top: 5%;
+    font-size: 50px;
+}
+
+#donate-p {
+    font-size: 18px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: gray;
 }
