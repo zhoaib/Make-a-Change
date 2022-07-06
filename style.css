@@ -35,7 +35,7 @@ body {
     text-decoration: none;
     background-image: linear-gradient(rgb(245, 105, 175), rgb(145, 22, 124));
     padding: 15px 80px;
-    border-radius: 5px;
+    border-radius: 10px;
     color: white;
     font-weight: 800;
 }
@@ -62,7 +62,7 @@ body {
 }
 
 .taka {
-    box-shadow: 1px 1px 10px;
+    box-shadow: 1px 1px 5px;
     padding: 2%;
     width: 10%;
     margin-left: 4%;
@@ -84,4 +84,52 @@ body {
 hr {
     width: 70%;
 
+}
+
+.donate-sec {
+    padding-bottom: 8%;
+}
+
+#plan-h1 {
+    font-size: 50px;
+}
+
+#plan-p {
+    font-size: 18px;
+    padding-bottom: 5%;
+}
+
+.container {
+    display: flex;
+}
+
+.con-h1 {
+    font-size: 20px;
+}
+
+.con-p {
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.con-part {
+    box-shadow: 1px 1px 5px;
+    padding: 2%;
+    width: 33%;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 10px;
+}
+
+#food {
+    background-color: rgb(177, 212, 212);
+}
+
+#shelter {
+    background-color: rgb(252, 218, 224);
+}
+
+#edu {
+    background-color: rgb(255, 220, 155);
 }
