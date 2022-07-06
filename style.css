@@ -194,3 +194,19 @@ hr {
     font-size: 18px;
     padding-bottom: 5%;
 }
+
+.foot {
+    background-color: black;
+}
+
+.foot-h1 {
+    color: orange;
+    font-size: 50px;
+    padding-top: 5%;
+}
+
+.foot-p {
+    color: gray;
+    font-size: 18px;
+    padding-bottom: 5%;
+}
